@@ -1,0 +1,45 @@
+
+
+body{
+    background: radial-gradient(circle, rgb(0, 0, 0) 73%, rgba(222,15,137,1) 78%, rgba(248,253,11,1) 82%);
+    background-size:contain;
+}
+
+
+#error{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+
+
+    margin-left: auto;
+    color: gold;
+    border: 2px solid rgba(222,15,137,1);
+    border-radius: 50%;
+    background-color: #27D9FA;
+    padding: 2%;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	40% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	50% {
+		transform: scale3d(0.85, 1.15, 1);
+	}
+
+	65% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+}
